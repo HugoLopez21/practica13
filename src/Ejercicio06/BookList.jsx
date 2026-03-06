@@ -1,21 +1,14 @@
 import Book from "./Book";
 import books from "./llibres";
 
-function bookList() {
-    const getBook = (id) =>{
-        const book = books.find((b) => b.id === id);
-        console.log(book)
-    }
+function BookList() {
     return (
-    <>
-        <h1>Lista de libros</h1>
         <section className='booklist'>
-            {books.map((book, index) => {
-                return <Book {...book} key={book.id} getBook={getBook} number={index} />;
+            {books.map((book) =>{
+                return <Book {...book}/>
             })}
         </section>
-    </>
     );
 }
 
-export default bookList;
+export default BookList;

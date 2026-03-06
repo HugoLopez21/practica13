@@ -2,7 +2,7 @@ const books = [
     {
         author: 'Ursula K. Le Guin',
         title: 'Els desposseïts',
-        img: './images/book-1.jpg',
+        img: 'https://capitanswing.com/wp-content/uploads/Octavia-Butler-La-parabola-del-sembrador.jpg',
         id: 1,
     },
     {
@@ -16,7 +16,7 @@ const books = [
         title: 'Binti: Fuego Sagrado',
         img: 'https://shop.crononauta.es/cdn/shop/products/BINTI_SACRED_FIRE_1.png',
         id: 3,
-    },
+    }
 ];
 
 export default books;
